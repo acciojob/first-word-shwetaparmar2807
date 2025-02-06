@@ -1,17 +1,12 @@
 function firstWord(s) {
   // your code here
-
- str = str.trim();
-	let spaceIndex = str.indexOf(' ');
-    
-    return spaceIndex === -1 ? str : str.substring(0, spaceIndex);
+	let strc= s.trim();
+	str.split(" ");
 }
-
-console.log(firstWord('see and stop'));  
-console.log(firstWord(' Hello World!')); 
-console.log(firstWord('12345'));         
-console.log(firstWord(''));              
-
+console.log('see','stop')
+console.log(' Hello world')
+console.log('12345');
+console.log('')
 // Do not change the code below
 
 // const s = prompt("Enter String:");
